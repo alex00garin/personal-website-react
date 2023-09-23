@@ -18,7 +18,7 @@ export default function Navbar() {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5 self-center">
                     <Link className='text-md md:text-lg lg:text-2xl font-extrabold text-black dark:text-white cursor-pointer' to="home" smooth={true} duration={800}>ALEXANDER GARIN</Link>
                     <div className=" max-w-screen-xl flex flex-wrap items-center justify-between ">
-                    <DarkModeToggle />
+                    <DarkModeToggle className=''/>
                         <ul className='hidden md:flex gap-8 cursor-pointer items-center font-semibold'>
                             <Link className='text-black dark:text-white md:text-lg' to="home" smooth={true} duration={800}>Home</Link>
                             <Link className='text-black dark:text-white md:text-lg' to="about" smooth={true} duration={800}>About</Link>
